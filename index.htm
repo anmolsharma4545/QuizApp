@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./App.js" defer></script>
+    <title>QuizApp</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container hide">
+                <div class="question-display ">
+                    <h1 class="question ">Which one is the correct syntax to insert an element into an array?</h1>
+                </div>
+                    <div class="score hide">0</div>
+                <div class="options-display ">
+                    <div class="option-container  ">
+                        <button class="option " id="opt1" onclick="getCheckAnswer();">Array.pop()</button>
+                        <button class="option "id="opt2" onclick="getCheckAnswer1();">Array.map()</button></div>
+                        <div class="option-container ">
+                        <button class="option "id="opt3"  onclick="getCheckAnswer2();">Array.push()</button>
+                        <button class="option "id="opt4"  onclick="getCheckAnswer3();">Array.reduce()</button>
+                        
+                    </div>
+                    
+                <div class="lifeline  ">
+                    <div class="google "><img src="./images/google-icon.svg" alt="G" class="google" ></div>
+                    <div class="fifty-fifty ">50:50</div>
+                </div>
+                <div class="submitBtn">
+                   <button class="submit">Submit</button></div>
+                </div>
+            </div>
+            
+            <button  class="start show">Start</button>
+        </section>
+    </main>
+    
+</body>
+
+</html>
