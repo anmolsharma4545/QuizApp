@@ -154,7 +154,7 @@ background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s ease-in-out;
-    animation: round infinite;
+    
 }
 @keyframes round {
     from{
@@ -167,6 +167,7 @@ background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
 .google img:hover{
     width: 60px;
     height: 60px;
+    animation: round infinite;
 }
 
 .fifty-fifty{
@@ -189,7 +190,7 @@ background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
 }
 
 @media only screen and (max-width: 1000px){
-    lifeline{
+    .lifeline{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -197,7 +198,5 @@ background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
     .question-display {
         height: 300px;
     }
-    .lifeline {
-        display: none;   
-    }
+    
 }
