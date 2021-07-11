@@ -164,11 +164,24 @@ background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
     height: 30px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+<<<<<<< HEAD
+=======
+    
+}
+@keyframes round {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+>>>>>>> f04cb5720fb75635fb86e655b7b6111cd0f0fdd2
 }
 
 .google img:hover{
     width: 60px;
     height: 60px;
+    animation: round infinite;
 }
 
 .fifty-fifty{
@@ -193,11 +206,12 @@ background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
 
 @media only screen and (max-width: 1000px){
-    lifeline{
+    .lifeline{
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
+<<<<<<< HEAD
     .options-display{
         display: inline-block;
         margin-top: 5px;
@@ -230,3 +244,10 @@ background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
     }
     
 }
+=======
+    .question-display {
+        height: 300px;
+    }
+    
+}
+>>>>>>> f04cb5720fb75635fb86e655b7b6111cd0f0fdd2
